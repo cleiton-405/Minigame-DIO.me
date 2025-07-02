@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    background-image: url("../images/konoha.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 90px;
+    width: 100%;
+    background-color: #555454;
+    color: white;
+    border-bottom: 5px solid gold;
+}
+
+.panel{
+    margin-top: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: #3f3f3f;
+}
+
+.enemy{
+    background-image: url("../images/madara.webp");
+    background-size: cover;
+}
+
+.menu-lives{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-time h2:nth-child(2), .menu-score h2:nth-child(2){
+    margin-top: 10px; /* Colocando margem somente no h2 */
+}
